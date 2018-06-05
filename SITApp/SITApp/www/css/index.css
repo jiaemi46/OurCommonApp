@@ -7,7 +7,7 @@ body {
     -webkit-text-size-adjust: none;
     -webkit-user-select: none;
 	background-color:#E4E4E4;
-    background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    /*background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-webkit-gradient(
@@ -16,7 +16,7 @@ body {
         left bottom,
         color-stop(0, #A7A7A7),
         color-stop(0.51, #E4E4E4)
-    );
+    );*/
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:12px;
@@ -36,13 +36,12 @@ body {
     /* background: url(../images/cordova.png) no-repeat center top; */
     position: absolute;
     left: 10%;
-    top: 10%;
-    height: 300px;
+    height: inherit;
     width: 300px;
     text-align: center;
-    padding: 10px 0px 0px 0px;
-    /*margin: 0px 0px 0px 0px;*/
+    padding: 0px 0px 0px 0px;
     margin: 10px 10px 10px 10px;
+    background-color: #F8F8FF;
 }
 
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
@@ -64,8 +63,7 @@ h1 {
 
 img {
     height: auto;
-    width: auto;
-    /*margin: 10px 10px 10px 10px;*/
+    width: 100%;
 }
 
 .event {
@@ -106,12 +104,20 @@ img {
 
 /* START Test css here */
 
-/* Create two equal columns that floats next to each other */
+.row{
+    margin: 0px 10px 0px 10px;
+}
+
+/* Create three equal columns within one row */
 .column {
     float: left;
-    width: 25%;
-    height: 25%;
+    width: 26%;
+    height: auto;
     padding: 10px;
+}
+
+p{
+    margin: 0px 0px 0px 0px;
 }
 
 /* Clear floats after the columns */
