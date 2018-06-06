@@ -1,0 +1,68 @@
+﻿/**
+ * Date Created: 07/06/2018
+ * Author: Kelly Wong
+ */
+
+div{
+    margin:10px 0px 0px 0px;
+}
+
+#timeline {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0px;
+}
+
+#timeline li a {
+    border: 0.5px solid #C0C0C0;
+    margin-top: -1px;
+    background-color: #6A5ACD;
+    padding: 5px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 10px;
+    color: #E0FFFF;
+    display: block;
+    margin: 0px 20px 0px 20px;
+}
+
+#timeline li a:hover:not(.header) {
+    background-color: #2F4F4F;
+    border-color: #FFD700;
+}
+
+#timeline li a {
+    border: 0.5px solid #C0C0C0;
+    margin-top: -1px;
+    background-color: #6A5ACD;
+    padding: 5px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 10px;
+    color: #E0FFFF;
+    display: block;
+    margin: 0px 20px 0px 20px;
+}
+
+#timeline li.occupy a {
+    background-color: #A52A2A;
+}
+
+#timeline li.occupy a:hover:not(.header){
+    background-color: #A52A2A;
+}
+
+#home {
+    margin: 10px 10px 10px 10px;
+    background-color: #191970;
+    border: none;
+    color: white;
+    padding: 5px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family: arial;
+    border-radius: 2px;
+}
+
