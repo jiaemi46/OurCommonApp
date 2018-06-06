@@ -1,0 +1,52 @@
+﻿/**
+ * Date Created: 06/06/2018
+ * Author: Kelly Wong
+ */
+
+* {
+    box-sizing: border-box;
+}
+
+#back {
+    margin: 25px 10px 10px 10px;
+    background-color: #00008B;
+    border: none;
+    color: white;
+    padding: 5px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family: arial;
+    border-radius: 2px;
+}
+
+#myInput {
+    width: -webkit-fill-available;
+    padding: 5px 5px 5px 5px;
+    margin: 20px 20px 20px 20px;
+}
+
+#namesList{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#namesList li a {
+   border: 0.5px solid #C0C0C0;
+   margin-top: -1px;
+   background-color: #6A5ACD;
+   padding: 5px;
+   text-decoration: none;
+   text-align: left;
+   font-size: 10px;
+   color: #E0FFFF;
+   display: block;
+   margin: 0px 20px 0px 20px;
+}
+
+#namesList li a:hover:not(.header) {
+   background-color: #2F4F4F;
+   border-color: #FFD700;
+}
