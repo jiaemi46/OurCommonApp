@@ -1,9 +1,94 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+    <!-- CSS Layout -->
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/lecturer_consultation/lecturer_calendar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="vanillacalendar.css" rel="stylesheet">
+    <script src="vanillacalendar.js"></script>
+
+
+    <title>Book Appointment</title>
 </head>
 <body>
-    <div>Content goes here.</div>
+    <div class="app">
+        <img src="../images/battery_life.jpg" alt="default" />
+        <h3>Choose your time slot:</h3>
+
+        <!-- Calendar [hardcode] designed by w3schools -->
+        <div class="month">
+            <ul>
+                <li class="prev">&#10094;</li>
+                <li class="next">&#10095;</li>
+                <li>
+                    June<br>
+                    <span style="font-size:18px">2018</span>
+                </li>
+            </ul>
+        </div>
+        <ul class="weekdays">
+            <li>Mo</li>
+            <li>Tu</li>
+            <li>We</li>
+            <li>Th</li>
+            <li>Fr</li>
+            <li>Sa</li>
+            <li>Su</li>
+        </ul>
+        <ul class="days">
+            <li><span class="disable">27</span></li>
+            <li><span class="disable">28</span></li>
+            <li><span class="disable">29</span></li>
+            <li><span class="disable">30</span></li>
+            <li><span class="disable">31</span></li>
+            <li><span class="disable">1</span></li>
+            <li><span class="disable">2</span></li>
+            <li><span class="disable">3</span></li>
+            <li><span class="disable">4</span></li>
+            <li><span class="disable">5</span></li>
+            <li><span class="disable">6</span></li>
+            <li class="busy"><a href="#">7</a></li>
+            <li><a href="#">8</a></li>
+            <li><a href="#">9</a></li>
+            <li><a href="#">10</a></li>
+            <li><a href="#">11</a></li>
+            <li><a href="#">12</a></li>
+            <li><a href="#">13</a></li>
+            <li><a href="#">14</a></li>
+            <li><a href="#">15</a></li>
+            <li><a href="#">16</a></li>
+            <li class="busy"><a href="#">17</a></li>
+            <li><a href="#">18</a></li>
+            <li><a href="#">19</a></li>
+            <li><a href="#">20</a></li>
+            <li class="busy"><a href="#">21</a></li>
+            <li><a href="#">22</a></li>
+            <li><a href="#">23</a></li>
+            <li><a href="#">24</a></li>
+            <li><a href="#">25</a></li>
+            <li><a href="#">26</a></li>
+            <li><a href="#">27</a></li>
+            <li><a href="#">28</a></li>
+            <li class="busy"><a href="#">29</a></li>
+            <li class="busy"><a href="#">30</a></li>
+        </ul>
+        <!-- Back -->
+        <button type="button" id="back" onclick="returnBack()">Return Back</button>
+
+        <!--END of Code here-->
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
+
+    <!-- Back Function [Javascript Function] -->
+    <script type="text/javascript" src="../scripts/lecturer_consultation/lecturer_calendar.js"></script>
+
 </body>
 </html>
