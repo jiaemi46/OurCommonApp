@@ -1,9 +1,55 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    
+    <!-- CSS Layout -->
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/lecturer_consultation/lecturer_name_search.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Lecturer Consultation</title>
+
 </head>
 <body>
-    <div>Content goes here.</div>
+    <div class="app">
+        <img src="../images/battery_life.jpg" alt="default" />
+
+        <!-- Search Field Bar-->
+        <input type="text" id="myInput" onkeyup="namesFilter()" placeholder="&#xF002; Search for names.."
+               title="Type in a name" style="font-family: FontAwesome, Arial; font-style: normal">
+
+        <!-- List of names [hardcode] -->
+        <ul id="namesList">
+            <li><a href="lecturer_calendar.html"><i class="fa fa-address-book"></i>  Alvin Chan</a></li>
+            <li><a href="lecturer_calendar.html"><i class="fa fa-address-book"></i>  Bai Guangdong</a></li>
+            <li><a href="lecturer_calendar.html"><i class="fa fa-address-book"></i>  Jeannie S Lee</a></li>
+            <li><a href="lecturer_calendar.html"><i class="fa fa-address-book"></i>  Jeremy Lim Jian Ming</a></li>
+            <li><a href="lecturer_calendar.html"><i class="fa fa-address-book"></i>  Karin Avnit</a></li>
+            <li><a href="lecturer_calendar.html"><i class="fa fa-address-book"></i>  Kelly Wong Lay Peng</a></li>
+            <li><a href="lecturer_calendar.html"><i class="fa fa-address-book"></i>  Koh Shi Jia</a></li>
+            <li><a href="lecturer_calendar.html"><i class="fa fa-address-book"></i>  Nicholas Sheppard</a></li>
+            <li><a href="lecturer_calendar.html"><i class="fa fa-address-book"></i>  Peter Waszecki</a></li>
+            <li><a href="lecturer_calendar.html"><i class="fa fa-address-book"></i>  Ryan Kirwan</a></li>
+            <li><a href="lecturer_calendar.html"><i class="fa fa-address-book"></i>  Song Jun Quan</a></li>
+            <li><a href="lecturer_calendar.html"><i class="fa fa-address-book"></i>  Thong Jun Wei</a></li>
+            <li><a href="lecturer_calendar.html"><i class="fa fa-address-book"></i>  Zhengkui Wang</a></li>
+        </ul>
+
+        <!-- Back -->
+        <button type="button" id="back" onclick="returnBack()">Return Back</button>
+
+        <!--END of Code here-->
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
+
+    <!-- Lecturers' Name Filter [Javascript Function] -->
+    <script type="text/javascript" src="../scripts/lecturer_consultation/lecturer_name_search.js"></script>
+
 </body>
 </html>
