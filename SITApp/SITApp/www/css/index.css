@@ -145,3 +145,44 @@ p{
     }
 
 /* END Test css here */
+
+.joinButton {
+    float: right;
+    padding-right: -10px;
+}
+
+.groups {
+    border: solid;
+    border-width: 3px;
+    margin:5px;
+    padding:5px;
+}
+
+.createForm {
+    align-content:flex-start;
+    margin-top:50px;
+}
+
+.messageReceived {
+    float: left;
+    text-align:left;
+    border: solid;
+    border-width: 5px;
+    border-color: peachpuff;
+    background-color: peachpuff;
+    margin-bottom:10px;
+}
+
+.messageSent {
+    float: right;
+    text-align: right;
+    border: solid;
+    border-width: 5px;
+    border-color: lightgreen;
+    background-color: lightgreen;
+    margin-bottom: 10px;
+}
+
+.chatMessages {
+    margin:10px;
+}
